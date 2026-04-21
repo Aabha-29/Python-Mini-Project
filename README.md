@@ -61,7 +61,7 @@ Viewing Data
 
  Reads file line by line
  Displays data in Listbox
-Total Calculation
+Total Calculation
  Extracts amounts from file
  Calculates total using loop
 
