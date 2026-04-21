@@ -23,7 +23,9 @@ graphical interface for better usability.
 Manual tracking of daily expenses is inefficient and prone to errors. Users require a simple and effective system to:
 
  Record expenses
+
  View stored data
+
  Calculate total spending
 
 This project aims to develop a GUI-based Python application that efficiently manages expense data and simplifies financial tracking.
@@ -31,8 +33,11 @@ This project aims to develop a GUI-based Python application that efficiently man
 3. Technology Stack
 
  Programming Language: Python 3.x
+
  GUI Library: Tkinter
+
  IDE: Python IDLE
+
  Storage: Text File (expenses.txt)
 
 4. Implementation
@@ -42,13 +47,17 @@ The implementation is based on the following structured logic:
 Input Handling
 
  User enters:
+
  Expense name
+
  Expense amount
 
 Validation
 
  Ensures fields are not empty
+
  Converts amount into float
+
  Displays error for invalid input
 
 Data Storage
@@ -60,20 +69,29 @@ Name,Amount
 Viewing Data
 
  Reads file line by line
+
  Displays data in Listbox
+
 Total Calculation
+
  Extracts amounts from file
+
  Calculates total using loop
 
 GUI Components
 
  Labels and Entry fields
+
  Buttons for different operations
+
  Listbox for display
 
 5. Results and Observations
 
  The system successfully stores expense data in a file
+
  GUI makes the system interactive and user-friendly
+
  Total expense calculation works accurately
+
  Supports multiple entries without data loss
